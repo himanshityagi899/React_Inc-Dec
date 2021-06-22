@@ -1,0 +1,134 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  border: 0.6vh solid #090979;
+  margin: auto;
+  width: 80%;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+}
+h1 {
+  background-color: rgb(14, 12, 65);
+
+  text-align: center;
+  color: azure;
+  padding: 30px;
+  height: 130px;
+  font-size: 34px;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(9, 9, 121, 0.6895133053221288) 48%,
+    rgba(0, 212, 255, 1) 100%
+  );
+}
+
+.edu h2 {
+  text-align: center;
+}
+
+li {
+  list-style: square;
+  list-style-position: inside;
+}
+
+.edu {
+  margin: 20px;
+  /* border: 3px solid peru; */
+}
+.vertical {
+  border-left: 3px solid #090979;
+  height: 76px;
+  position: absolute;
+  left: 51%;
+  top: 43%;
+}
+.com {
+  text-align: left;
+}
+#school {
+  /* border: 1px solid red; */
+  margin: 3px;
+  width: 48%;
+  border-top: 3px solid #090979;
+  border-bottom: 3px solid #090979;
+  /* padding-bottom: 80px; */
+}
+#bachelor {
+  border-top: 3px solid #090979;
+  margin: 3px;
+  width: 45%;
+  position: absolute;
+  top: 42%;
+  left: 55%;
+  width: 70vh;
+  height: 11%;
+  border-bottom: 3px solid #090979;
+  padding-bottom: 75px;
+}
+
+.skill {
+  margin: 20px;
+  border: 3px solid #090979;
+  padding: 10px;
+}
+
+.skill h2 {
+  text-align: center;
+}
+
+#interest {
+  border-top: 3px solid #090979;
+  margin: 3px;
+  width: 45%;
+  position: absolute;
+  top: 93.6%;
+  left: 55%;
+  width: 70vh;
+  height: 11%;
+  border-bottom: 3px solid #090979;
+  padding-bottom: 96px;
+}
+
+.ver {
+  border-left: 3px solid #090979;
+  height: 88px;
+  position: absolute;
+  left: 51%;
+  top: 95%;
+}
+li#music {
+  background: url(./images/music.jpg);
+}
+
+.Experience h2 {
+  text-align: center;
+}
+
+.Experience {
+  margin: 20px;
+  border: 3px solid #090979;
+  padding: 10px;
+}
+
+#fot_div {
+  background-color: rgba(2, 0, 36, 1) 0%;
+  text-align: center;
+  color: azure;
+  padding: 30px;
+  height: 130px;
+  font-size: 30px;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(9, 9, 121, 0.6895133053221288) 48%,
+    rgba(0, 212, 255, 1) 100%
+  );
+}
